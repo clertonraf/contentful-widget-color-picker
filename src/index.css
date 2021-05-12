@@ -1,0 +1,37 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.heading {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(10, 48px);
+  row-gap: 10px;
+  column-gap: 3px;
+  margin-top: 10px;
+}
+
+.grid__item {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+[aria-checked="true"] {
+  box-shadow: 0 0 0 3px lime;
+}
