@@ -19,4 +19,4 @@ node_modules/
 .coverage
 
 # Build
-!/build/index.html
+build/*
